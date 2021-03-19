@@ -11,8 +11,7 @@ RUN apk add --no-cache \
 	ca-certificates \
 	firefox-esr \
 	hicolor-icon-theme \
-	mesa-dri-intel \
-	mesa-gl \
+	mesa-egl \
 	ttf-dejavu
 
 RUN rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/* /usr/bin/qemu-*-static
